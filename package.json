@@ -1,0 +1,9 @@
+{
+  "name": "transit-routing",
+  "version": "1.0.0",
+  "private": true,
+  "module": "CommonJS",
+  "scripts": {
+    "build": "node scripts/build.js"
+  }
+}

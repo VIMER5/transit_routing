@@ -1,0 +1,28 @@
+{
+  "Name": "Transit LAB",
+  "GlobalProxy": "true",
+  "UseChunkFiles": "true",
+  "RemoteDns": "8.8.8.8",
+  "DomesticDns": "77.88.8.8",
+  "RemoteDNSType": "DoH",
+  "RemoteDNSDomain": "https://8.8.8.8/dns-query",
+  "RemoteDNSIP": "8.8.8.8",
+  "DomesticDNSType": "DoH",
+  "DomesticDNSDomain": "https://77.88.8.8/dns-query",
+  "DomesticDNSIP": "77.88.8.8",
+  "Geoipurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat",
+  "Geositeurl": "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat",
+  "DnsHosts": {
+    "lkfl2.nalog.ru": "213.24.64.175",
+    "lknpd.nalog.ru": "213.24.64.181"
+  },
+  "RouteOrder": "block-direct-proxy",
+  "DirectSites": ["geosite:private", "geosite:category-ru"],
+  "DirectIp": ["geoip:private", "geoip:ru"],
+  "ProxySites": [],
+  "ProxyIp": [],
+  "BlockSites": ["geosite:category-ads"],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false"
+}
